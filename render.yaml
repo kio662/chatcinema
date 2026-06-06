@@ -1,0 +1,57 @@
+services:
+
+* type: web
+  name: cinemacityhub
+
+  env: python
+
+  plan: free
+
+  buildCommand: |
+  pip install -r requirements.txt
+
+  startCommand: |
+  python bot.py
+
+  autoDeploy: true
+
+  envVars:
+
+  * key: BOT_TOKEN
+    sync: false
+
+  * key: MONGO_URI
+    sync: false
+
+  * key: DATABASE_NAME
+    value: cinemacityhub
+
+  * key: DB_CHANNEL
+    value: "-1004294321324"
+
+  * key: FORCE_SUB_CHANNEL
+    value: "@Cinemacityhub_info"
+
+  * key: UPDATES_CHANNEL
+    value: "@CinemaCityHub"
+
+  * key: SUPPORT_GROUP
+    value: "@Rising_With_The_Wind_Tamil"
+
+  * key: BOT_USERNAME
+    value: "Tamil_Anime_TNMC_Bot"
+
+  * key: ADMIN_ID
+    value: "6558711318"
+
+  * key: OMDB_API_KEY
+    sync: false
+
+  * key: AUTO_DELETE_SECONDS
+    value: "600"
+
+  * key: PAGE_SIZE
+    value: "10"
+
+  * key: MAX_SEARCH_PER_MINUTE
+    value: "20"
