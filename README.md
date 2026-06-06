@@ -59,11 +59,10 @@ OMDB_API_KEY=
 
 ## 📢 Official Channel
 
-@CinemaCityHub
+
 
 ## 👥 Support Group
 
-@Rising_With_The_Wind_Tamil
 
 ## 🤖 Bot
 
