@@ -7,7 +7,7 @@ A powerful Telegram Movie + Anime Filter Bot built with Python, MongoDB Atlas, a
 * 🎬 Movie & Anime Search
 * 🌐 Language Filters
 
-  * Tamil
+  *Tamil
   * Hindi
   * English
   * Telugu
@@ -41,14 +41,14 @@ A powerful Telegram Movie + Anime Filter Bot built with Python, MongoDB Atlas, a
 
 ## 🛠 Environment Variables
 
-BOT_TOKEN=
-MONGO_URI=
-DB_CHANNEL=
-FORCE_SUB_CHANNEL=
-UPDATES_CHANNEL=
-SUPPORT_GROUP=
-ADMIN_ID=
-OMDB_API_KEY=
+* BOT_TOKEN=
+* MONGO_URI=
+* DB_CHANNEL=
+* FORCE_SUB_CHANNEL=
+* UPDATES_CHANNEL=
+* SUPPORT_GROUP=
+* ADMIN_ID=
+* OMDB_API_KEY=
 
 
 ## 🚀 Deployment
@@ -58,17 +58,5 @@ OMDB_API_KEY=
 3. Add Environment Variables
 4. Deploy
 
-## 📢 Official Channel
-
-
-
-## 👥 Support Group
-
-
-## 🤖 Bot
-
-@Tamil_Anime_TNMC_Bot
-
-## 👨‍💻 Owner
 
 CinemaCityHub Team
